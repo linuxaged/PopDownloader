@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A8556D15C0DDDF00965EF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8556C15C0DDDF00965EF9 /* UIKit.framework */; };
+		18A8556F15C0DDE000965EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8556E15C0DDDF00965EF9 /* Foundation.framework */; };
+		18A8557115C0DDE000965EF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8557015C0DDE000965EF9 /* CoreGraphics.framework */; };
+		18A8557715C0DDE000965EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A8557515C0DDE000965EF9 /* InfoPlist.strings */; };
+		18A8557915C0DDE000965EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8557815C0DDE000965EF9 /* main.m */; };
+		18A8557D15C0DDE000965EF9 /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8557C15C0DDE000965EF9 /* PDAppDelegate.m */; };
+		18A8558015C0DDE000965EF9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A8557E15C0DDE000965EF9 /* MainStoryboard_iPhone.storyboard */; };
+		18A8558315C0DDE000965EF9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A8558115C0DDE000965EF9 /* MainStoryboard_iPad.storyboard */; };
+		18A8558615C0DDE000965EF9 /* PDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8558515C0DDE000965EF9 /* PDFirstViewController.m */; };
+		18A8558815C0DDE000965EF9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A8558715C0DDE000965EF9 /* first.png */; };
+		18A8558A15C0DDE000965EF9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A8558915C0DDE000965EF9 /* first@2x.png */; };
+		18A8558D15C0DDE000965EF9 /* PDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8558C15C0DDE000965EF9 /* PDSecondViewController.m */; };
+		18A8558F15C0DDE000965EF9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A8558E15C0DDE000965EF9 /* second.png */; };
+		18A8559115C0DDE000965EF9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A8559015C0DDE000965EF9 /* second@2x.png */; };
+		18A8559915C0DDE000965EF9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8559815C0DDE000965EF9 /* SenTestingKit.framework */; };
+		18A8559A15C0DDE100965EF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8556C15C0DDDF00965EF9 /* UIKit.framework */; };
+		18A8559B15C0DDE100965EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8556E15C0DDDF00965EF9 /* Foundation.framework */; };
+		18A855A315C0DDE100965EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A855A115C0DDE100965EF9 /* InfoPlist.strings */; };
+		18A855A615C0DDE100965EF9 /* PopDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A855A515C0DDE100965EF9 /* PopDownloaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A8559C15C0DDE100965EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A8555F15C0DDDF00965EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A8556715C0DDDF00965EF9;
+			remoteInfo = PopDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A8556815C0DDDF00965EF9 /* PopDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A8556C15C0DDDF00965EF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18A8556E15C0DDDF00965EF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18A8557015C0DDE000965EF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18A8557415C0DDE000965EF9 /* PopDownloader-Info.plist */ = {isa = PBXFileReference; path = "PopDownloader-Info.plist"; sourceTree = "<group>"; };
+		18A8557615C0DDE000965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18A8557815C0DDE000965EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A8557A15C0DDE000965EF9 /* PopDownloader-Prefix.pch */ = {isa = PBXFileReference; path = "PopDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		18A8557B15C0DDE000965EF9 /* PDAppDelegate.h */ = {isa = PBXFileReference; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		18A8557C15C0DDE000965EF9 /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		18A8557F15C0DDE000965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		18A8558215C0DDE000965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		18A8558415C0DDE000965EF9 /* PDFirstViewController.h */ = {isa = PBXFileReference; path = PDFirstViewController.h; sourceTree = "<group>"; };
+		18A8558515C0DDE000965EF9 /* PDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFirstViewController.m; sourceTree = "<group>"; };
+		18A8558715C0DDE000965EF9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		18A8558915C0DDE000965EF9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		18A8558B15C0DDE000965EF9 /* PDSecondViewController.h */ = {isa = PBXFileReference; path = PDSecondViewController.h; sourceTree = "<group>"; };
+		18A8558C15C0DDE000965EF9 /* PDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDSecondViewController.m; sourceTree = "<group>"; };
+		18A8558E15C0DDE000965EF9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		18A8559015C0DDE000965EF9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		18A8559715C0DDE000965EF9 /* PopDownloaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopDownloaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A8559815C0DDE000965EF9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		18A855A015C0DDE100965EF9 /* PopDownloaderTests-Info.plist */ = {isa = PBXFileReference; path = "PopDownloaderTests-Info.plist"; sourceTree = "<group>"; };
+		18A855A215C0DDE100965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18A855A415C0DDE100965EF9 /* PopDownloaderTests.h */ = {isa = PBXFileReference; path = PopDownloaderTests.h; sourceTree = "<group>"; };
+		18A855A515C0DDE100965EF9 /* PopDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDownloaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A8556515C0DDDF00965EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A8556D15C0DDDF00965EF9 /* UIKit.framework in Frameworks */,
+				18A8556F15C0DDE000965EF9 /* Foundation.framework in Frameworks */,
+				18A8557115C0DDE000965EF9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A8559315C0DDE000965EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A8559915C0DDE000965EF9 /* SenTestingKit.framework in Frameworks */,
+				18A8559A15C0DDE100965EF9 /* UIKit.framework in Frameworks */,
+				18A8559B15C0DDE100965EF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A8555D15C0DDDF00965EF9 = {
+			isa = PBXGroup;
+			children = (
+				18A8557215C0DDE000965EF9 /* PopDownloader */,
+				18A8559E15C0DDE100965EF9 /* PopDownloaderTests */,
+				18A8556B15C0DDDF00965EF9 /* Frameworks */,
+				18A8556915C0DDDF00965EF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A8556915C0DDDF00965EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A8556815C0DDDF00965EF9 /* PopDownloader.app */,
+				18A8559715C0DDE000965EF9 /* PopDownloaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A8556B15C0DDDF00965EF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A8556C15C0DDDF00965EF9 /* UIKit.framework */,
+				18A8556E15C0DDDF00965EF9 /* Foundation.framework */,
+				18A8557015C0DDE000965EF9 /* CoreGraphics.framework */,
+				18A8559815C0DDE000965EF9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18A8557215C0DDE000965EF9 /* PopDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				18A8557B15C0DDE000965EF9 /* PDAppDelegate.h */,
+				18A8557C15C0DDE000965EF9 /* PDAppDelegate.m */,
+				18A8557E15C0DDE000965EF9 /* MainStoryboard_iPhone.storyboard */,
+				18A8558115C0DDE000965EF9 /* MainStoryboard_iPad.storyboard */,
+				18A8558415C0DDE000965EF9 /* PDFirstViewController.h */,
+				18A8558515C0DDE000965EF9 /* PDFirstViewController.m */,
+				18A8558715C0DDE000965EF9 /* first.png */,
+				18A8558915C0DDE000965EF9 /* first@2x.png */,
+				18A8558B15C0DDE000965EF9 /* PDSecondViewController.h */,
+				18A8558C15C0DDE000965EF9 /* PDSecondViewController.m */,
+				18A8558E15C0DDE000965EF9 /* second.png */,
+				18A8559015C0DDE000965EF9 /* second@2x.png */,
+				18A8557315C0DDE000965EF9 /* Supporting Files */,
+			);
+			path = PopDownloader;
+			sourceTree = "<group>";
+		};
+		18A8557315C0DDE000965EF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A8557415C0DDE000965EF9 /* PopDownloader-Info.plist */,
+				18A8557515C0DDE000965EF9 /* InfoPlist.strings */,
+				18A8557815C0DDE000965EF9 /* main.m */,
+				18A8557A15C0DDE000965EF9 /* PopDownloader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A8559E15C0DDE100965EF9 /* PopDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A855A415C0DDE100965EF9 /* PopDownloaderTests.h */,
+				18A855A515C0DDE100965EF9 /* PopDownloaderTests.m */,
+				18A8559F15C0DDE100965EF9 /* Supporting Files */,
+			);
+			path = PopDownloaderTests;
+			sourceTree = "<group>";
+		};
+		18A8559F15C0DDE100965EF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A855A015C0DDE100965EF9 /* PopDownloaderTests-Info.plist */,
+				18A855A115C0DDE100965EF9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A8556715C0DDDF00965EF9 /* PopDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A855A915C0DDE100965EF9 /* Build configuration list for PBXNativeTarget "PopDownloader" */;
+			buildPhases = (
+				18A8556415C0DDDF00965EF9 /* Sources */,
+				18A8556515C0DDDF00965EF9 /* Frameworks */,
+				18A8556615C0DDDF00965EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopDownloader;
+			productName = PopDownloader;
+			productReference = 18A8556815C0DDDF00965EF9 /* PopDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A8559615C0DDE000965EF9 /* PopDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A855AC15C0DDE100965EF9 /* Build configuration list for PBXNativeTarget "PopDownloaderTests" */;
+			buildPhases = (
+				18A8559215C0DDE000965EF9 /* Sources */,
+				18A8559315C0DDE000965EF9 /* Frameworks */,
+				18A8559415C0DDE000965EF9 /* Resources */,
+				18A8559515C0DDE000965EF9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A8559D15C0DDE100965EF9 /* PBXTargetDependency */,
+			);
+			name = PopDownloaderTests;
+			productName = PopDownloaderTests;
+			productReference = 18A8559715C0DDE000965EF9 /* PopDownloaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A8555F15C0DDDF00965EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 18A8556215C0DDDF00965EF9 /* Build configuration list for PBXProject "PopDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18A8555D15C0DDDF00965EF9;
+			productRefGroup = 18A8556915C0DDDF00965EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A8556715C0DDDF00965EF9 /* PopDownloader */,
+				18A8559615C0DDE000965EF9 /* PopDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A8556615C0DDDF00965EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A8557715C0DDE000965EF9 /* InfoPlist.strings in Resources */,
+				18A8558015C0DDE000965EF9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				18A8558315C0DDE000965EF9 /* MainStoryboard_iPad.storyboard in Resources */,
+				18A8558815C0DDE000965EF9 /* first.png in Resources */,
+				18A8558A15C0DDE000965EF9 /* first@2x.png in Resources */,
+				18A8558F15C0DDE000965EF9 /* second.png in Resources */,
+				18A8559115C0DDE000965EF9 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A8559415C0DDE000965EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A855A315C0DDE100965EF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A8559515C0DDE000965EF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A8556415C0DDDF00965EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A8557915C0DDE000965EF9 /* main.m in Sources */,
+				18A8557D15C0DDE000965EF9 /* PDAppDelegate.m in Sources */,
+				18A8558615C0DDE000965EF9 /* PDFirstViewController.m in Sources */,
+				18A8558D15C0DDE000965EF9 /* PDSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A8559215C0DDE000965EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A855A615C0DDE100965EF9 /* PopDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A8559D15C0DDE100965EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A8556715C0DDDF00965EF9 /* PopDownloader */;
+			targetProxy = 18A8559C15C0DDE100965EF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A8557515C0DDE000965EF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A8557615C0DDE000965EF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18A8557E15C0DDE000965EF9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A8557F15C0DDE000965EF9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		18A8558115C0DDE000965EF9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A8558215C0DDE000965EF9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		18A855A115C0DDE100965EF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A855A215C0DDE100965EF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A855A715C0DDE100965EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A855A815C0DDE100965EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A855AA15C0DDE100965EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDownloader/PopDownloader-Prefix.pch";
+				INFOPLIST_FILE = "PopDownloader/PopDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18A855AB15C0DDE100965EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDownloader/PopDownloader-Prefix.pch";
+				INFOPLIST_FILE = "PopDownloader/PopDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18A855AD15C0DDE100965EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopDownloader.app/PopDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDownloader/PopDownloader-Prefix.pch";
+				INFOPLIST_FILE = "PopDownloaderTests/PopDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		18A855AE15C0DDE100965EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopDownloader.app/PopDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDownloader/PopDownloader-Prefix.pch";
+				INFOPLIST_FILE = "PopDownloaderTests/PopDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A8556215C0DDDF00965EF9 /* Build configuration list for PBXProject "PopDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A855A715C0DDE100965EF9 /* Debug */,
+				18A855A815C0DDE100965EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A855A915C0DDE100965EF9 /* Build configuration list for PBXNativeTarget "PopDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A855AA15C0DDE100965EF9 /* Debug */,
+				18A855AB15C0DDE100965EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A855AC15C0DDE100965EF9 /* Build configuration list for PBXNativeTarget "PopDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A855AD15C0DDE100965EF9 /* Debug */,
+				18A855AE15C0DDE100965EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A8555F15C0DDDF00965EF9 /* Project object */;
+}
