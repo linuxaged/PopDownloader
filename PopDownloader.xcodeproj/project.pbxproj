@@ -26,6 +26,8 @@
 		18A8559B15C0DDE100965EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8556E15C0DDDF00965EF9 /* Foundation.framework */; };
 		18A855A315C0DDE100965EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A855A115C0DDE100965EF9 /* InfoPlist.strings */; };
 		18A855A615C0DDE100965EF9 /* PopDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A855A515C0DDE100965EF9 /* PopDownloaderTests.m */; };
+		18A855B115C0E37E00965EF9 /* PDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A855B015C0E37E00965EF9 /* PDRequest.m */; };
+		18A855B215C0E37E00965EF9 /* PDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A855B015C0E37E00965EF9 /* PDRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,28 +45,30 @@
 		18A8556C15C0DDDF00965EF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18A8556E15C0DDDF00965EF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18A8557015C0DDE000965EF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18A8557415C0DDE000965EF9 /* PopDownloader-Info.plist */ = {isa = PBXFileReference; path = "PopDownloader-Info.plist"; sourceTree = "<group>"; };
+		18A8557415C0DDE000965EF9 /* PopDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopDownloader-Info.plist"; sourceTree = "<group>"; };
 		18A8557615C0DDE000965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18A8557815C0DDE000965EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18A8557A15C0DDE000965EF9 /* PopDownloader-Prefix.pch */ = {isa = PBXFileReference; path = "PopDownloader-Prefix.pch"; sourceTree = "<group>"; };
-		18A8557B15C0DDE000965EF9 /* PDAppDelegate.h */ = {isa = PBXFileReference; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		18A8557A15C0DDE000965EF9 /* PopDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		18A8557B15C0DDE000965EF9 /* PDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
 		18A8557C15C0DDE000965EF9 /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
 		18A8557F15C0DDE000965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		18A8558215C0DDE000965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		18A8558415C0DDE000965EF9 /* PDFirstViewController.h */ = {isa = PBXFileReference; path = PDFirstViewController.h; sourceTree = "<group>"; };
+		18A8558415C0DDE000965EF9 /* PDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFirstViewController.h; sourceTree = "<group>"; };
 		18A8558515C0DDE000965EF9 /* PDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFirstViewController.m; sourceTree = "<group>"; };
 		18A8558715C0DDE000965EF9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		18A8558915C0DDE000965EF9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		18A8558B15C0DDE000965EF9 /* PDSecondViewController.h */ = {isa = PBXFileReference; path = PDSecondViewController.h; sourceTree = "<group>"; };
+		18A8558B15C0DDE000965EF9 /* PDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDSecondViewController.h; sourceTree = "<group>"; };
 		18A8558C15C0DDE000965EF9 /* PDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDSecondViewController.m; sourceTree = "<group>"; };
 		18A8558E15C0DDE000965EF9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		18A8559015C0DDE000965EF9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		18A8559715C0DDE000965EF9 /* PopDownloaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopDownloaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A8559815C0DDE000965EF9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		18A855A015C0DDE100965EF9 /* PopDownloaderTests-Info.plist */ = {isa = PBXFileReference; path = "PopDownloaderTests-Info.plist"; sourceTree = "<group>"; };
+		18A855A015C0DDE100965EF9 /* PopDownloaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopDownloaderTests-Info.plist"; sourceTree = "<group>"; };
 		18A855A215C0DDE100965EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18A855A415C0DDE100965EF9 /* PopDownloaderTests.h */ = {isa = PBXFileReference; path = PopDownloaderTests.h; sourceTree = "<group>"; };
+		18A855A415C0DDE100965EF9 /* PopDownloaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopDownloaderTests.h; sourceTree = "<group>"; };
 		18A855A515C0DDE100965EF9 /* PopDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDownloaderTests.m; sourceTree = "<group>"; };
+		18A855AF15C0E37E00965EF9 /* PDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDRequest.h; sourceTree = "<group>"; };
+		18A855B015C0E37E00965EF9 /* PDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 				18A8558E15C0DDE000965EF9 /* second.png */,
 				18A8559015C0DDE000965EF9 /* second@2x.png */,
 				18A8557315C0DDE000965EF9 /* Supporting Files */,
+				18A855AF15C0E37E00965EF9 /* PDRequest.h */,
+				18A855B015C0E37E00965EF9 /* PDRequest.m */,
 			);
 			path = PopDownloader;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 				18A8557D15C0DDE000965EF9 /* PDAppDelegate.m in Sources */,
 				18A8558615C0DDE000965EF9 /* PDFirstViewController.m in Sources */,
 				18A8558D15C0DDE000965EF9 /* PDSecondViewController.m in Sources */,
+				18A855B115C0E37E00965EF9 /* PDRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A855A615C0DDE100965EF9 /* PopDownloaderTests.m in Sources */,
+				18A855B215C0E37E00965EF9 /* PDRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

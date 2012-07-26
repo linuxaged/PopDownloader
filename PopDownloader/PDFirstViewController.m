@@ -13,15 +13,19 @@
 @end
 
 @implementation PDFirstViewController
+@synthesize DownloadButton, request = _request;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    // 初始化 request
+    NSArray* inputArray = [NSArray arrayWithObjects:[NSArray arrayWithObjects:@"nanjing.jpg",@"http://allseeing-i.com/ASIHTTPRequest/tests/images/large-image.jpg",@"shanghai.jpg", nil], nil];
 }
 
 - (void)viewDidUnload
 {
+    [self setDownloadButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

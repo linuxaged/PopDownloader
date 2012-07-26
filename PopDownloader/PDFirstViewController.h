@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PDFirstViewController : UIViewController
+#import "PDRequest.h"
 
+@interface PDFirstViewController : UIViewController {
+    PDRequest* _request;
+}
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *DownloadButton;
+@property (nonatomic, retain) PDRequest* request;
 @end
